@@ -1,6 +1,13 @@
+import random
 a=input("Enter user 1's choice").lower()
 print("*********CHEATING NOT ALLOWED*******\n\n\n"*100)
-b=input("Enter user 2's choice").lower()
+b=random.randint(1,2)
+if(b==1):
+	b="rock"
+elif(b==2):
+	b="paper"
+else:
+	b="scissor"
 if a:
 	if b:
 		if(a==b):
