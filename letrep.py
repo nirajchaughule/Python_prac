@@ -10,7 +10,7 @@ def countlet():
 		for j in range (len(a)):
 			if b[i]==b[j]:
 				r+=1
-			if r>0:
+			if r>1:
 				c.extend(b[j])
 		print(f'{c[i]}-{r}')
 countlet()
